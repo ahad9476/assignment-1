@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    font-family: inter;
+
 }
 nav{
     display: flex;
@@ -40,7 +42,6 @@ header{
     justify-content: center;
     align-items: center;
     max-width: 2000px;
-    margin-top: ;
 
 }
 
@@ -59,6 +60,39 @@ header{
     text-align:justify
 }
 
-#speakers{
-    display: grid;
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.card{
+    width: 644px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 20px;
+
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-content{
+    padding: 10px;
+}
+
+.card-content h6{
+    color:#2563EB;
+    margin-bottom: 14px;
+}
+.card-content h2{
+margin-bottom: 14px;
+
+}
+
+.card-content p{
+    color: #575757;
 }
