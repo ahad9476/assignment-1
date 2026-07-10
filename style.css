@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    max-width: 1650px;
+    margin: auto;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sections ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
