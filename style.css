@@ -96,3 +96,30 @@ margin-bottom: 14px;
 .card-content p{
     color: #575757;
 }
+
+
+
+footer{
+    width: 100%;
+    background-color: #0D1B2A;
+    min-height: 20vh;
+    color: aliceblue;
+}
+
+.footer-up{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer hr{
+    margin:60px 0 35px;
+    border:none;
+    height:1px;
+    background:rgba(255,255,255,.15);
+}
+
+.footer-down{
+    text-align: center;
+}
