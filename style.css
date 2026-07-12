@@ -137,12 +137,13 @@ header {
 }
 
 .tc-card{
-    box-shadow:0px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow:0px 0px 2px rgba(0, 0, 0, 0.2);
     width: 370.66px;
     height: 444px;
     border-radius: 12px;
     overflow: hidden;
     padding: 32px;
+    gap: 20px;
 }
 
 .tc-card hr{
@@ -157,10 +158,108 @@ header {
 
 .tc-card ul{
     font-size: 14;
-    line-height: 21px;
-    list-colo: ;
+    line-height: 40px;
+    width: 304px;
+    height: 176px;
 }
 
+
+
+.tc-card button{
+    padding: 11px;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 20%;
+    font-size: larger;
+}
+
+.std-btn{
+    color: #2563EB;
+    background-color: transparent;
+    border: 1;
+    border-color: #2563EB;
+}
+
+.pro-btn{
+    background-color:#2563EB ;
+    color: white;
+    border: 0;
+}
+.team-btn{
+    background-color: transparent;
+}
+
+
+#faq{
+    
+    padding:100px 100px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/faq.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    color:#0D1B2A;
+}
+
+.faq-header{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.faq-header p{
+    color:white;
+    font-size:18px;
+    margin-bottom:12px;
+}
+
+.faq-header h2{
+    color: white;
+    font-size:48px;
+    font-weight:700;
+}
+
+.faq-container{
+    width:900px;
+    margin:auto;
+}
+
+.faq-item{
+    background:white;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:16px;
+    margin-bottom:24px;
+    padding:28px 32px;
+    transition:.3s;
+}
+
+.faq-question{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.faq-question h3{
+    font-size:24px;
+    font-weight:600;
+}
+
+.faq-question span{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background:#0D1B2A;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.faq-answer p{
+    color:#B8B8B8;
+    font-size:17px;
+    line-height:1.8;
+}
 
 footer {
     width: 100%;
