@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: inter;
+    font-family: "Inter", sans-serif;
 
 }
 
@@ -58,15 +58,15 @@ header {
 }
 
 .hero-inner button {
-    width: 25%;
+    width: 30%;
     margin-left: 40%;
-    margin-top: 60%;
+    margin-top: 40%;
 
 }
 
 
 .hero-inner h1 {
-    font-size: 4rem;
+    font-size: 90px;
     font-weight: bold;
 }
 
@@ -123,10 +123,16 @@ header {
     padding: 55px;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
+}
 
-
+.ticket h1{
+    font-size: 60px;
+    font-weight: bold;
 
 }
+
+
 .tc-container{
     display: flex;
     justify-content: center;
@@ -142,8 +148,33 @@ header {
     height: 444px;
     border-radius: 12px;
     overflow: hidden;
-    padding: 32px;
     gap: 20px;
+}
+
+.tc-card h3{
+    color: #888888;
+    font-size: 13px;
+}
+
+.tc-card p{
+    color: #888888;
+    font-size: 13px;
+}
+
+.std-card{
+    padding: 32px;
+}
+
+.pro-card{
+    background-color: #0D1B2A;
+    color: #E5E7EB;
+        padding: 32px;
+}
+
+
+.team-card{
+    padding: 32px;
+    background-color: #F8F9FB;
 }
 
 .tc-card hr{
@@ -158,12 +189,14 @@ header {
 
 .tc-card ul{
     font-size: 14;
-    line-height: 40px;
+    line-height: 32px;
     width: 304px;
-    height: 176px;
+    height: 150px;
 }
 
-
+li::marker{
+    color: #60A5FA;
+}
 
 .tc-card button{
     padding: 11px;
@@ -266,17 +299,33 @@ footer {
     background-color: #0D1B2A;
     min-height: 20vh;
     color: aliceblue;
+    align-items: center;
 }
 
 .footer-up {
+    padding: 15px;
+    max-width: 1650px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
 }
 
-.footer hr {
-    margin: 60px 0 35px;
+
+.social-links ul{
+    display: flex;
+    list-style: none;
+}
+
+.social-links img{
+    height: 50px;
+    width: 50px;
+}
+
+footer hr {
+    max-width: 95%;
+    margin:auto;
     border: none;
     height: 1px;
     background: rgba(255, 255, 255, .15);
@@ -284,4 +333,5 @@ footer {
 
 .footer-down {
     text-align: center;
+    padding: 20px;
 }
